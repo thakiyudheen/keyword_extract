@@ -1,0 +1,30 @@
+{
+  "name": "keyword-extract",
+  "version": "1.0.0",
+  "description": "URL Keyword Extraction & Competitive Keyword Gap Analysis",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.15.2",
+    "cheerio": "^1.0.0-rc.12",
+    "compromise": "^14.15.0",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "n-gram": "^2.0.2",
+    "natural": "^7.0.6",
+    "puppeteer": "^25.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^20.12.12",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}
